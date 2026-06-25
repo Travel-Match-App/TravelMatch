@@ -1,0 +1,78 @@
+# ==========================
+# PYTHON / FASTAPI
+# ==========================
+
+backend/venv/
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco SQLite (caso use)
+*.db
+*.sqlite3
+
+# Ambiente
+.env
+.env.*
+
+# Uploads temporários
+uploads/
+backend/uploads/
+
+# ==========================
+# NODE / NEXT.JS
+# ==========================
+
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+.next/
+frontend/.next/
+
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# VS CODE
+# ==========================
+
+.vscode/
+
+# ==========================
+# SISTEMA
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+# ==========================
+# ARQUIVOS GRANDES
+# ==========================
+
+*.rar
+*.zip
+*.7z
+
+# ==========================
+# MODELOS TREINADOS
+# ==========================
+
+# Descomente se não quiser subir modelos
+# *.h5
+# *.keras
+# *.pt
+# *.pth
+
+__pycache__/
+*.pyc
